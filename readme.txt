@@ -2,9 +2,9 @@
 Contributors: scribu
 Donate link: http://scribu.net/projects
 Tags: admin, email, notifications
-Requires at least: 2.3+
-Tested up to: 2.6+
-Stable tag: trunk
+Requires at least: 2.3
+Tested up to: 2.7
+Stable tag: 0.6
 
 Stop WordPress from sending email notifications for comments that have been manually approved.
 
@@ -30,10 +30,3 @@ The plugin can be installed in 2 easy steps:
 
 1. Unzip "Filter Email Notifications" archive and put the folder into your plugins folder (/wp-content/plugins/).
 1. Activate the plugin from the Plugins menu.
-
-**Supported branches**
-
-* 2.3
-* 2.5
-* 2.6
-

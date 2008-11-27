@@ -1,14 +1,12 @@
 <?php
 /*
 Plugin Name: Filter Email Notifications
-Version: 0.6
+Version: 0.6.1b
 Description: Stop WordPress from sending email notifications for comments that have been manually approved.
 Author: scribu
 Author URI: http://scribu.net/
 Plugin URI: http://scribu.net/projects/filter-email-notifications.html
-*/
 
-/*
 Copyright (C) 2008 scribu.net (scribu AT gmail DOT com)
 
 This program is free software; you can redistribute it and/or modify

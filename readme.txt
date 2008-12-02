@@ -4,7 +4,7 @@ Donate link: http://scribu.net/projects
 Tags: admin, email, notifications
 Requires at least: 2.3
 Tested up to: 2.7
-Stable tag: 0.6
+Stable tag: trunk
 
 Stop WordPress from sending email notifications for comments that have been manually approved.
 

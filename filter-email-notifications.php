@@ -5,9 +5,9 @@ Version: 0.6.1
 Description: Stop WordPress from sending email notifications for comments that have been manually approved.
 Author: scribu
 Author URI: http://scribu.net/
-Plugin URI: http://scribu.net/projects/filter-email-notifications.html
+Plugin URI: http://scribu.net/wordpress/filter-email-notifications
 
-Copyright (C) 2008 scribu.net (scribu AT gmail DOT com)
+Copyright (C) 2009 scribu.net (scribu AT gmail DOT com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -42,7 +42,7 @@ function fen_init() {
 }
 
 function fen_warning() {
-		echo '<div class="updated fade"><p><em>Filter Email Notifications</em> is <strong>not compatible</strong> with your version of WordPress.</p></div>';
+	echo '<div class="updated fade"><p><em>Filter Email Notifications</em> is <strong>not compatible</strong> with your version of WordPress.</p></div>';
 }
 
 function fen_activate() {
@@ -54,22 +54,24 @@ function fen_deactivate() {
 }
 
 function fen_set_approved_manually($comment_id) {
-	$ids = ( explode(',', get_option('fen_approved_manually') ) );
+	$ids = explode(',', get_option('fen_approved_manually'));
 	if ( in_array($comment_id, $ids) )
 		return;
 
 	$ids[] = $comment_id;
 
-	update_option( 'fen_approved_manually', implode(',', $ids) );
+	update_option('fen_approved_manually', implode(',', $ids));
 }
 
 function fen_check_approved_manually($comment_id) {
-	$ids = ( explode(',', get_option('fen_approved_manually') ) );
+	$ids = explode(',', get_option('fen_approved_manually'));
 	$s = array_search($comment_id, $ids);
-	if ($s === false)
+
+	if ( $s === false )
 		return false;
-		unset($ids[$s]);
-	update_option( 'fen_approved_manually', implode(',', $ids) );
+
+	unset($ids[$s]);
+	update_option('fen_approved_manually', implode(',', $ids));
 
 	return true;
 }

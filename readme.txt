@@ -30,3 +30,13 @@ The plugin can be installed in 2 easy steps:
 
 1. Unzip "Filter Email Notifications" archive and put the folder into your plugins folder (/wp-content/plugins/).
 1. Activate the plugin from the Plugins menu.
+
+== Changelog ==
+
+= 0.6.2 =
+* WP 2.8 compatibility
+
+= 0.6 =
+* initial release
+* [more info](http://scribu.net/wordpress/filter-email-notifications/fen-0-6.html)
+

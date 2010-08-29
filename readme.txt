@@ -4,7 +4,7 @@ Donate link: http://scribu.net/wordpress
 Tags: admin, email, notifications
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 0.7.1
+Stable tag: trunk
 
 Stop WordPress from sending email notifications for comments that have been manually approved.
 
@@ -23,6 +23,8 @@ The problem is that right after that you get a second email letting you know tha
 **Solution**
 
 Instead of disabling email notifications for new comments alltogether, you can use this plugin and not receive the redundant emails mentioned above.
+
+Links: [Plugin News](http://scribu.net/wordpress/filter-email-notifications) | [Author's Site](http://scribu.net)
 
 == Installation ==
 

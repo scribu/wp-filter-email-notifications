@@ -26,13 +26,6 @@ Instead of disabling email notifications for new comments alltogether, you can u
 
 Links: [Plugin News](http://scribu.net/wordpress/filter-email-notifications) | [Author's Site](http://scribu.net)
 
-== Installation ==
-
-The plugin can be installed in 2 easy steps:
-
-1. Unzip "Filter Email Notifications" archive and put the folder into your plugins folder (/wp-content/plugins/).
-1. Activate the plugin from the Plugins menu.
-
 == Changelog ==
 
 = 0.7.1 =

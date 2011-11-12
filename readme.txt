@@ -1,6 +1,5 @@
 === Filter Email Notifications ===
 Contributors: scribu
-Donate link: http://scribu.net/wordpress
 Tags: admin, email, notifications
 Requires at least: 3.0
 Tested up to: 3.0

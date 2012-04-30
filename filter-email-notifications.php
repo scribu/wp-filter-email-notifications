@@ -6,8 +6,6 @@ Description: Stop WordPress from sending email notifications for comments that h
 Author: scribu
 Author URI: http://scribu.net/
 Plugin URI: http://scribu.net/wordpress/filter-email-notifications
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 // Init
